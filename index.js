@@ -22,7 +22,7 @@ async function uploadMediaToTwitter(imageData) {
 async function main() {
   try {
     const resp = await fetch(
-      "https://api.waifu.pics/nsfw/waifu"
+      "https://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true"
     );
 
     const json = await resp.json();
